@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+  <body>
+
+    {{>nav}}
+
+<!-- Main Header-->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- Left side Div-->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure>
+                            <img src="img/404.png" alt="404 Error Image" class="img-fluid" title="404 Error Image">
+                        </figure>
+                        <p>Welcome to the weather app</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+{{>footer}}
+{{>footerlinks}}
+  </body>
+</html>
